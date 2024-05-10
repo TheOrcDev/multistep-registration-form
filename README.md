@@ -20,7 +20,9 @@ Additionally, the following settings are defaulted to true:
 
 # Components
 
-Feature sliced design is used for the component structure. TODO
+Feature sliced design is used for the component structure. Feature-Sliced Design (FSD) is an architectural methodology for scaffolding front-end applications. Simply put, it's a compilation of rules and conventions on organizing code. The main purpose of this methodology is to make the project more understandable and structured in the face of ever-changing business requirements. 
+
+For more information about FSD, visit [https://feature-sliced.design/](https://feature-sliced.design/).
 
 # State Management
 
