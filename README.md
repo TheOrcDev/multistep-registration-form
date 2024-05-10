@@ -38,7 +38,19 @@ There are two methods inside the registration store:
 
 ## Getting Started
 
-First, run the development server:
+First, install all the dependencies:
+
+```bash
+npm install
+# or
+yarn i
+# or
+pnpm i
+# or
+bun install
+```
+
+After that, run the development server:
 
 ```bash
 npm run dev
