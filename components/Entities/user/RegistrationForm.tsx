@@ -27,8 +27,6 @@ type RegistrationFormValues = z.infer<typeof registrationFormSchema>;
 
 // This can come from database or API.
 const defaultValues: Partial<RegistrationFormValues> = {
-  // firstName: "Your name",
-  // bio: "My bio",
   privacySettings: true,
   notificationSettings: true,
 };

@@ -44,7 +44,7 @@ export const registrationFormSchema = z.object({
     .max(500, {
       message: "A bio must not be longer than 500 characters.",
     }),
-  profilePic: z.custom<File>((v) => v instanceof File),
-  privacySettings: z.boolean(),
-  notificationSettings: z.boolean(),
+  profilePic: z.custom<File>((v) => v instanceof File).nullable(),
+  privacySettings: z.boolean().default(true),
+  notificationSettings: z.boolean().default(true),
 });
